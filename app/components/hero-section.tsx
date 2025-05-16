@@ -6,8 +6,8 @@ import { ArrowRight } from "lucide-react"
 export function HeroSection() {
   return (
     <section className="relative overflow-hidden bg-white py-16 md:py-24">
-      <div className="container flex flex-col md:flex-row items-center gap-8 md:gap-16">
-        <div className="flex flex-col gap-4 md:w-1/2">
+      <div className="mx-auto max-w-7xl px-4 flex flex-col md:flex-row items-center gap-8 md:gap-16">
+      <div className="flex flex-col gap-4 md:w-1/2">
           <Badge className="w-fit bg-green-100 text-green-800 hover:bg-green-100">Eco-Friendly Transportation</Badge>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight">
             Rent & Share <span className="text-green-600">Bikes & Scooters</span> Anywhere
