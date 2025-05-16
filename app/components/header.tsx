@@ -35,14 +35,9 @@ export function Header() {
               Download App
             </Button>
           </Link>
-          <Button
-              variant="outline"
-              className="border-green-600 text-green-600 hover:bg-green-50"
-              onClick={() => window.open("https://dev.dm5piayuhlgrr.amplifyapp.com", "_blank")}
-          >
-            Get Started
-          </Button>
-
+          <Link href="#pricing">
+            <Button className="bg-green-600 hover:bg-green-700">Get Started</Button>
+          </Link>
         </div>
       </div>
     </header>

@@ -11,12 +11,7 @@ export function CTASection() {
             rent or list vehicles, we've got you covered.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button
-                className="bg-green-600 hover:bg-green-700 h-12 px-8"
-                onClick={() => window.open("https://dev.dm5piayuhlgrr.amplifyapp.com", "_blank")}
-            >
-              Get Started Now
-            </Button>
+            <Button className="bg-green-600 hover:bg-green-700 h-12 px-8">Get Started Now</Button>
             <Button variant="outline" className="border-green-600 text-green-600 hover:bg-green-50 h-12 px-8">
               Contact Sales
             </Button>
