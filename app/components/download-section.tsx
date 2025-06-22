@@ -5,7 +5,7 @@ import { Smartphone } from "lucide-react"
 export function DownloadSection() {
   return (
     <section id="download" className="bg-green-600 py-16 md:py-24 text-white">
-      <div className="container">
+      <div className="container mx-auto px-4 md:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-3xl md:text-4xl font-bold mb-6">Download the Verde Ruta App</h2>

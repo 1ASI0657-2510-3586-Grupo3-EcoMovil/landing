@@ -5,7 +5,7 @@ import { Bike } from "lucide-react"
 export function Footer() {
   return (
     <footer className="bg-gray-900 text-white py-12 md:py-16">
-      <div className="container">
+      <div className="container mx-auto px-4 md:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
           <div>
             <div className="flex items-center gap-2 mb-4">

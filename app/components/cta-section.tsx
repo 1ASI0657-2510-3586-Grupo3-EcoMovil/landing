@@ -3,9 +3,9 @@ import { Button } from "../components/ui/button"
 export function CTASection() {
   return (
     <section className="py-16 md:py-24 bg-white">
-      <div className="container">
+      <div className="container mx-auto px-4 md:px-8">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Transform Your Mobility?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-green-800">Ready to Transform Your Mobility?</h2>
           <p className="text-gray-600 mb-8 text-lg">
             Join Eco Verde today and be part of the sustainable transportation revolution. Whether you're looking to
             rent or list vehicles, we've got you covered.
