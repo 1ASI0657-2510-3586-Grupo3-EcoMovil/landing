@@ -7,6 +7,7 @@ import { Header } from "./components/header";
 import { HeroSection } from "./components/hero-section";
 import { HowItWorksSection } from "./components/how-it-works-section";
 import { PricingSection } from "./components/pricing-section";
+import {VideosSection} from "@/app/components/videos-section";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <HowItWorksSection />
         <PricingSection />
         <AboutSection />
+        <VideosSection />
         <DownloadSection />
         <CTASection />
       </main>
