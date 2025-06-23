@@ -26,7 +26,10 @@ export function Header() {
             Pricing
           </Link>
           <Link href="#about" className="text-white text-sm font-medium hover:text-green-600 transition-colors">
-            About
+            Mission
+          </Link>
+          <Link href="#about" className="text-white text-sm font-medium hover:text-green-600 transition-colors">
+            About the team
           </Link>
         </nav>
         <div className="flex items-center gap-4">
@@ -36,7 +39,7 @@ export function Header() {
             </Button>
           </Link>
           <Link href="#pricing">
-            <Button className="bg-green-600 hover:bg-green-700">Get Started</Button>
+            <Button className="bg-green-600 hover:bg-green-700">Start your ride</Button>
           </Link>
         </div>
       </div>
