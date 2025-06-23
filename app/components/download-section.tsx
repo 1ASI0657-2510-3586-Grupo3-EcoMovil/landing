@@ -16,7 +16,7 @@ export function DownloadSection() {
             <div className="flex flex-col sm:flex-row gap-4">
               <Button variant="outline" className="bg-white text-green-600 hover:bg-green-50 border-white h-14 px-6">
                 <Smartphone className="mr-2 h-5 w-5" />
-                App Store
+                Apple Store
               </Button>
               <Button variant="outline" className="bg-white text-green-600 hover:bg-green-50 border-white h-14 px-6">
                 <Smartphone className="mr-2 h-5 w-5" />
@@ -27,7 +27,7 @@ export function DownloadSection() {
           <div className="relative h-[500px]">
             <div className="absolute top-0 right-0 w-3/4 h-[400px]">
               <Image
-                src="/placeholder.svg?height=400&width=300"
+                src="/mobile_options_eco_movil.JPG"
                 alt="Verde Ruta App Screenshot 1"
                 width={300}
                 height={400}
@@ -36,7 +36,7 @@ export function DownloadSection() {
             </div>
             <div className="absolute bottom-0 left-0 w-3/4 h-[400px]">
               <Image
-                src="/placeholder.svg?height=400&width=300"
+                src="/mobile_eco_movil.JPG"
                 alt="Verde Ruta App Screenshot 2"
                 width={300}
                 height={400}

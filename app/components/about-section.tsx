@@ -41,11 +41,11 @@ export function AboutSection() {
           <div className="relative">
             <div className="relative h-[400px] w-full rounded-xl overflow-hidden shadow-xl">
               <Image
-                src="/images/eco-movil-logo.png"
+                src="/mission_image.JPG"
                 alt="Eco Móvil Logo"
-                width={300}
+                width={700}
                 height={300}
-                className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-auto"
+                className="object-cover rounded-lg shadow-lg mx-auto"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-green-900/10 to-transparent"></div>
             </div>

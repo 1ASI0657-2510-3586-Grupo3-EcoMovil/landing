@@ -39,7 +39,7 @@ export function HowItWorksSection() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
               <div>
                 <Image
-                  src="/placeholder.svg?height=400&width=300"
+                  src="/scooter_rider.JPG"
                   alt="Rider App Interface"
                   width={300}
                   height={400}
@@ -76,7 +76,7 @@ export function HowItWorksSection() {
               </div>
               <div className="order-1 md:order-2">
                 <Image
-                  src="/placeholder.svg?height=400&width=300"
+                  src="/bike_owner.JPG"
                   alt="Owner Dashboard"
                   width={300}
                   height={400}
