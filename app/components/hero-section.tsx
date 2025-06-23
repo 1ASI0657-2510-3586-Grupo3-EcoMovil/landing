@@ -45,7 +45,7 @@ export function HeroSection() {
           <div className="md:w-1/2 relative">
             <div className="relative h-[400px] w-full md:h-[500px] rounded-xl overflow-hidden shadow-xl">
               <Image
-                src="/placeholder.svg?height=500&width=400"
+                src="/bike_and_scooter_hero.JPG"
                 alt="Eco Verde App"
                 fill
                 className="object-cover"
