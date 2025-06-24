@@ -21,17 +21,17 @@ const ownerSteps = [
 export function HowItWorksSection() {
   return (
     <section id="how-it-works" className="py-16 md:py-24 bg-white">
-      <div className="container">
+      <div className="container mx-auto px-4 md:px-8">
         <div className="text-center mb-12">
           <Badge className="mb-4 bg-green-100 text-green-800 hover:bg-green-100">How It Works</Badge>
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Simple for Everyone</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-green-800">Simple for Everyone</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
             Whether you're looking to rent a vehicle or list your own fleet, our platform makes it easy.
           </p>
         </div>
 
         <Tabs defaultValue="riders" className="max-w-4xl mx-auto">
-          <TabsList className="grid w-full grid-cols-2 mb-8">
+          <TabsList className="grid w-full grid-cols-2 mb-8 text-green-800">
             <TabsTrigger value="riders">For Riders</TabsTrigger>
             <TabsTrigger value="owners">For Vehicle Owners</TabsTrigger>
           </TabsList>
@@ -39,7 +39,7 @@ export function HowItWorksSection() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
               <div>
                 <Image
-                  src="/placeholder.svg?height=400&width=300"
+                  src="/scooter_rider.JPG"
                   alt="Rider App Interface"
                   width={300}
                   height={400}
@@ -76,7 +76,7 @@ export function HowItWorksSection() {
               </div>
               <div className="order-1 md:order-2">
                 <Image
-                  src="/placeholder.svg?height=400&width=300"
+                  src="/bike_owner.JPG"
                   alt="Owner Dashboard"
                   width={300}
                   height={400}

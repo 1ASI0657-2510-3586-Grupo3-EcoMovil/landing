@@ -90,18 +90,18 @@ const ownerPlans = [
 export function PricingSection() {
   return (
     <section id="pricing" className="bg-green-50 py-16 md:py-24">
-      <div className="container">
+      <div className="container mx-auto px-4 md:px-8">
         <div className="text-center mb-12">
           <Badge className="mb-4 bg-green-100 text-green-800 hover:bg-green-100">Pricing</Badge>
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Subscription Plans</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-green-800">Subscription Plans</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Choose the perfect plan for your needs. Whether you're a casual rider or a business owner with a large
+            Choose the perfect plan for your needs. Whether you are a casual rider or a business owner with a large
             fleet.
           </p>
         </div>
 
         <Tabs defaultValue="riders-plans" className="max-w-5xl mx-auto">
-          <TabsList className="grid w-full grid-cols-2 mb-8">
+          <TabsList className="grid w-full grid-cols-2 mb-8 text-green-800">
             <TabsTrigger value="riders-plans">For Riders</TabsTrigger>
             <TabsTrigger value="owners-plans">For Vehicle Owners</TabsTrigger>
           </TabsList>
@@ -115,12 +115,12 @@ export function PricingSection() {
                     </div>
                   )}
                   <CardHeader>
-                    <CardTitle className="text-xl">{plan.name}</CardTitle>
+                    <CardTitle className="text-xl text-gray-600">{plan.name}</CardTitle>
                     <div className="mt-2">
-                      <span className="text-3xl font-bold">{plan.price}</span>
+                      <span className="text-3xl font-bold text-green-800">{plan.price}</span>
                       {plan.price !== "Free" && <span className="text-gray-500 ml-1">/month</span>}
                     </div>
-                    <CardDescription>{plan.description}</CardDescription>
+                    <CardDescription className="text-gray-600">{plan.description}</CardDescription>
                   </CardHeader>
                   <CardContent>
                     <ul className="space-y-2">
@@ -153,12 +153,12 @@ export function PricingSection() {
                     </div>
                   )}
                   <CardHeader>
-                    <CardTitle className="text-xl">{plan.name}</CardTitle>
+                    <CardTitle className="text-xl text-gray-600 ">{plan.name}</CardTitle>
                     <div className="mt-2">
-                      <span className="text-3xl font-bold">{plan.price}</span>
+                      <span className="text-3xl font-bold text-green-800">{plan.price}</span>
                       <span className="text-gray-500 ml-1">/month</span>
                     </div>
-                    <CardDescription>{plan.description}</CardDescription>
+                    <CardDescription className="text-gray-600">{plan.description}</CardDescription>
                   </CardHeader>
                   <CardContent>
                     <ul className="space-y-2">

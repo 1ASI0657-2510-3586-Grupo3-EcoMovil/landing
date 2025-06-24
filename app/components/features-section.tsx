@@ -38,10 +38,10 @@ const features = [
 export function FeaturesSection() {
   return (
     <section id="features" className="bg-green-50 py-16 md:py-24">
-      <div className="container">
+      <div className="container mx-auto px-4 md:px-8">
         <div className="text-center mb-12">
           <Badge className="mb-4 bg-green-100 text-green-800 hover:bg-green-100">Features</Badge>
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Why Choose Verde Ruta?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-green-800">Why Choose Verde Ruta?</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
             Our platform makes it easy to rent or list bikes and scooters with powerful features designed for both
             riders and vehicle owners.
@@ -53,7 +53,7 @@ export function FeaturesSection() {
             <Card key={index} className="border-none shadow-md hover:shadow-lg transition-shadow">
               <CardHeader>
                 <div className="mb-2">{feature.icon}</div>
-                <CardTitle>{feature.title}</CardTitle>
+                <CardTitle className="text-green-800">{feature.title}</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600">{feature.description}</p>

@@ -1,31 +1,32 @@
 import Link from "next/link"
 import { Button } from "../components/ui/button"
 import { Bike } from "lucide-react"
+import Image from "next/image";
 
 export function Header() {
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-white">
-      <div className="container flex h-16 items-center justify-between">
-        <div className="flex items-center gap-2">
-          {/* <Image
-            src="/images/verde-ruta-logo.png"
-            alt="Verde Ruta Logo"
-            width={150}
-            height={40}
-            className="h-8 w-auto"
-          /> */}
+    <header className="sticky top-0 z-50 w-full border-b bg-gray-900">
+      <div className="container flex h-16 items-center justify-end  mx-auto">
+        <div className="flex items-center gap-2 mr-auto">
+          <Image
+              src="/Eco_Movil_Logo.png"
+              alt="Verde Ruta Logo"
+              width="200"
+              height="200"
+              className="h-16 w-auto object-contain"
+          />
         </div>
-        <nav className="hidden md:flex gap-6">
-          <Link href="#features" className="text-sm font-medium hover:text-green-600 transition-colors">
+        <nav className="hidden md:flex gap-6 mr-5">
+          <Link href="#features" className=" text-white text-sm font-medium hover:text-green-600 transition-colors">
             Features
           </Link>
-          <Link href="#how-it-works" className="text-sm font-medium hover:text-green-600 transition-colors">
+          <Link href="#how-it-works" className="text-white text-sm font-medium hover:text-green-600 transition-colors">
             How It Works
           </Link>
-          <Link href="#pricing" className="text-sm font-medium hover:text-green-600 transition-colors">
+          <Link href="#pricing" className="text-white text-sm font-medium hover:text-green-600 transition-colors">
             Pricing
           </Link>
-          <Link href="#about" className="text-sm font-medium hover:text-green-600 transition-colors">
+          <Link href="#about" className="text-white text-sm font-medium hover:text-green-600 transition-colors">
             About
           </Link>
         </nav>
