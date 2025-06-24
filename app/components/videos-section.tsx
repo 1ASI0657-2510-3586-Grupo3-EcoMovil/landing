@@ -1,5 +1,4 @@
 import {Badge} from "@/app/components/ui/badge";
-import {Video} from "lucide-react";
 
 export function VideosSection(){
     return(
