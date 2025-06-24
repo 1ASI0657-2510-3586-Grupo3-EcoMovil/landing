@@ -8,7 +8,7 @@ export function MembersSection() {
             <div className="container mx-auto px-4 md:px-8">
                 <div className="flex flex-col gap-5 items-center justify-center">
                     <Badge className="mb-4 bg-green-100 text-green-800 hover:bg-green-100">Members</Badge>
-                    <h2 className="text-3xl md:text-4xl font-bold mb-6 text-green-800">Aboht the Members</h2>
+                    <h2 className="text-3xl md:text-4xl font-bold mb-6 text-green-800">About the Members</h2>
                     <p className="text-gray-600 ">Meet the team information behind our website’s development .</p>
                     <div className="flex items-center -space-x-4">
                         <div className="flex items-center space-x-4 text-gray-600 ">
