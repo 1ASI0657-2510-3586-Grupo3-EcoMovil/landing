@@ -7,9 +7,9 @@ import { Header } from "./components/header";
 import { HeroSection } from "./components/hero-section";
 import { HowItWorksSection } from "./components/how-it-works-section";
 import { UniversitySection } from "./components/university-section";
-import { MembersSection} from "@/app/components/members-section";
 import { PricingSection } from "./components/pricing-section";
 import {VideosSection} from "@/app/components/videos-section";
+import { TeamSection } from "./components/team-section";
 
 export default function Home() {
   return (
@@ -20,10 +20,10 @@ export default function Home() {
         <FeaturesSection />
         <HowItWorksSection />
         <UniversitySection />
-        <MembersSection />
         <PricingSection />
         <AboutSection />
         <VideosSection />
+        <TeamSection />
         <DownloadSection />
         <CTASection />
       </main>
