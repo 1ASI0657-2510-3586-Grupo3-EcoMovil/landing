@@ -2,6 +2,7 @@ import Image from "next/image"
 import { Button } from "../components/ui/button"
 import { Badge } from "../components/ui/badge"
 import { ArrowRight } from "lucide-react"
+import Link from "next/link";
 
 export function HeroSection() {
   return (
@@ -18,10 +19,13 @@ export function HeroSection() {
               ride in seconds.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mt-4">
-              <Button className="bg-green-600 hover:bg-green-700 h-12 px-6">
-                Start Renting Now
-                <ArrowRight className="ml-2 h-4 w-4" />
-              </Button>
+              <Link href="https://main.d1g4w7d8qx9yb6.amplifyapp.com/login" passHref>
+                <Button className="bg-green-600 hover:bg-green-700 h-12 px-6 cursor-pointer">
+                  Start Renting Now
+                  <ArrowRight className="ml-2 h-4 w-4" />
+                </Button>
+              </Link>
+
               <Button variant="outline" className="border-green-600 text-green-600 hover:bg-green-50 h-12 px-6">
                 List Your Vehicles
               </Button>
