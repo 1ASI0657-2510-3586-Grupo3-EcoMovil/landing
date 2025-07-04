@@ -15,7 +15,7 @@ export function VideosSection(){
                             width="100%"
                             height="315"
                             className="max-w-2xl w-full rounded-xl shadow-lg"
-                            src="https://www.youtube.com/embed/videoID"
+                            src="https://www.youtube.com/embed/j7ghxHPVJP0"
                             title="About the team"
                             frameBorder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
