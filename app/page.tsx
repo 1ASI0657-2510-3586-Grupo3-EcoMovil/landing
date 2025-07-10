@@ -1,5 +1,6 @@
 import { AboutSection } from "./components/about-section";
 import { CTASection } from "./components/cta-section";
+import { JoinPageSection } from "./components/join-page-section";
 import { DownloadSection } from "./components/download-section";
 import { FeaturesSection } from "./components/features-section";
 import { Footer } from "./components/footer";
@@ -26,6 +27,7 @@ export default function Home() {
         <VideosSection />
         <DownloadSection />
         <CTASection />
+        <JoinPageSection />
       </main>
       <Footer />
     </div>
